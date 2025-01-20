@@ -76,9 +76,9 @@ export function BottomNav() {
         size="icon"
         // onClick={() => setCurrentScreen("market")}
         onClick={() => {
-          setCurrentScreen("market");
-          window.location.hash = "#market";
-          console.log("market button pressed");
+          setCurrentScreen("profile");
+          window.location.hash = "#profile";
+          console.log("profile button pressed");
         }}
       >
         <DollarSign className="text-white" size={24} />
@@ -89,7 +89,6 @@ export function BottomNav() {
         size="icon"
         onClick={() => {
           setCurrentScreen("profile");
-          window.location.hash = "#profile";
           console.log("profile button pressed");
         }}
       >
